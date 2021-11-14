@@ -1,7 +1,12 @@
 # Snyk Task 
 
-<img src="https://snyk.io/wp-content/uploads/title-card-logo-black.png"><img>
-<br>
+<img
+src=“https://snyk.io/wp-content/themes/snyk_v2_etyhadar/dist/images/svg/logo.svg”
+raw=true
+alt=“Subject Pronouns”
+style=“margin: auto;”
+/>
+
 This repository contains an E2E project that contains a VueJS application and a NodeJS server.
 The applications allows users to get the full dependencies tree by a given npm package and its version.
 
@@ -9,6 +14,10 @@ The applications allows users to get the full dependencies tree by a given npm p
 
 - Update the `/package` endpoint, so that it returns all of the transitive dependencies for a package, not only the first order dependencies
 - Present these dependencies in a tree view that can be viewed from a Web Browser (you can use any technologies you find suitable)
+
+# NOTE
+
+Each of the repositories inside (server/client) has a README file which provides further details on how it actually works, take a look!
 
 # Setup
 
@@ -44,10 +53,6 @@ npm start
 ```sh
 npm run serve
 ```
-
-# NOTES
-
-Each of the repositories inside (server/client) has a README file which provides further details on how it actually works, take a look!
 
 # Future imporvements
 
