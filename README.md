@@ -1,10 +1,6 @@
 # Snyk Task 
 
-<img
-src=“https://snyk.io/wp-content/themes/snyk_v2_etyhadar/dist/images/svg/logo.svg”
-raw=true
-alt=“Subject Pronouns”
-style=“margin: auto;”></img>
+![Snyk Logo](https://snyk.io/wp-content/themes/snyk_v2_etyhadar/dist/images/svg/logo.svg 112)
 
 This repository contains an E2E project that contains a VueJS application and a NodeJS server.
 The applications allows users to get the full dependencies tree by a given npm package and its version.
