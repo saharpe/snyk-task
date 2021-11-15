@@ -80,6 +80,7 @@ Object data propeties:
 * Handling requests for dependencies that return versions range (>= / <= and more..)
 * Check response statuses from npm-registry API
 * Creating a seperated npm-registry client file with function that recieves a target url, performs a GET request (avoiding duplicated code..) and returns data
+* If more time was provided, probably taking the more OOP approach (NPMPackage class which implements a node tree and can access children/parent on instance for example)
 
 
 
